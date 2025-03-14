@@ -6,7 +6,7 @@ namespace Cardápio
     internal class Program
     {
       // public  List<Produto> Cardápio = new List<Produto>();
-
+      //OLA
         static void Main(string[] args)
         {
             Console.WriteLine("Seja bem-vindo, ao TopLanches. \n");
@@ -186,7 +186,7 @@ namespace Cardápio
             foreach (var p in operacao.pedidos)
             {
                 pegarPedido.numeroPedido += 1;
-
+                 
                 Console.WriteLine($" Numero: {pegarPedido.numeroPedido}");
                 p.ExbirPedido();
 
