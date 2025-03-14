@@ -1,0 +1,15 @@
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\bin\Debug\net7.0\Cardápio.exe
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\bin\Debug\net7.0\Cardápio.deps.json
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\bin\Debug\net7.0\Cardápio.runtimeconfig.json
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\bin\Debug\net7.0\Cardápio.dll
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\bin\Debug\net7.0\Cardápio.pdb
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\Cardápio.csproj.AssemblyReference.cache
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\Cardápio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\Cardápio.AssemblyInfoInputs.cache
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\Cardápio.AssemblyInfo.cs
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\Cardápio.csproj.CoreCompileInputs.cache
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\Cardápio.dll
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\refint\Cardápio.dll
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\Cardápio.pdb
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\Cardápio.genruntimeconfig.cache
+C:\Users\joao.eskelsen\source\repos\Cardápio\Cardápio\obj\Debug\net7.0\ref\Cardápio.dll
