@@ -10,7 +10,6 @@ namespace Cardápio
     public class Produto
     {
         public string Nome;
-        public int Peso;
         public double Preco;
        
 

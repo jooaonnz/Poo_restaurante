@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Cardápio
@@ -28,28 +29,23 @@ namespace Cardápio
             }
                  
                 Produto Lanche1 = new Produto();    
-                Lanche1.Nome = "X-SALADA";
-                Lanche1.Peso = 300;
+                Lanche1.Nome = "X-SALADA 300g";
                 Lanche1.Preco = 22.56;
 
                 Produto Lanche2 = new Produto();
-                Lanche2.Nome = "X-BACON";
-                Lanche2.Peso = 320;
+                Lanche2.Nome = "X-BACON 320g";
                 Lanche2.Preco = 18.97;
 
                 Produto Lanche3 = new Produto();
-                Lanche3.Nome = "X-FRANGO";
-                Lanche3.Peso = 290;
+                Lanche3.Nome = "X-FRANGO 290g";
                 Lanche3.Preco= 17.37;
 
                 Produto Lanche4 = new Produto();
-                Lanche4.Nome = "PORÇÃO DE FRITAS";
-                Lanche4.Peso = 600;
+                Lanche4.Nome = "PORÇÃO DE FRITAS 600g";
                 Lanche4.Preco = 69.89;
 
                 Produto Lanche5 = new Produto();
-                Lanche5.Nome = "PORÇÃO DE FRITAS E PETISCOS";
-                Lanche5.Peso = 850;
+                Lanche5.Nome = "PORÇÃO DE FRITAS E PETISCOS 850g";
                 Lanche5.Preco = 89.80;
 
                 Produto Bebida1 = new Produto();
@@ -79,20 +75,19 @@ namespace Cardápio
 
             Operacao operacao = new Operacao();
            
-            Pedido pegarPedido = new Pedido();
-
-          
+           
+         
             
             bool ativado = true;
             
-            pegarPedido.numeroPedido = 0;
+            
 
             while (ativado)
             {
                 int op = -1;
                 Console.WriteLine("Faça seu pedido: ");
-                
 
+                Pedido pegarPedido = new Pedido();
                 while (op != 0)
                 {
                     ExibirCardápio();
@@ -178,20 +173,24 @@ namespace Cardápio
                 ativado = Resp  == "S" ? true : false;
 
                 operacao.pedidos.Add(pegarPedido);
+                
 
             }
 
-
+              int numeroPedido = 0;
 
             foreach (var p in operacao.pedidos)
             {
-                pegarPedido.numeroPedido += 1;
+                numeroPedido += 1;
                  
-                Console.WriteLine($" Numero: {pegarPedido.numeroPedido}");
+                Console.WriteLine($" Numero: #{numeroPedido}");
+               
                 p.ExbirPedido();
-
+                Console.WriteLine(p.Total());
+                Console.WriteLine("--------------------------------------------");
             }
 
+          
 
         }
 
