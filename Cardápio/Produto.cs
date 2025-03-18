@@ -11,15 +11,6 @@ namespace Cardápio
     {
         public string Nome;
         public double Preco;
-       
-
-
-       
-        
-        // criar nao static para usar
-        //mostrar usando funcao
-     
-
     
     }
 }

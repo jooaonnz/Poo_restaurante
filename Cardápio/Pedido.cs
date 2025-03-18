@@ -8,35 +8,21 @@ namespace Cardápio
 {
     public class Pedido
     {
-        //criar funçao para ler
-       
-
-
 
 
         public List<Produto> pedidos = new List<Produto>();
 
         List<Produto> pedidos_list = new List<Produto>();
-
-
-
         public void ExbirPedido()
         {
             foreach (var pedido in pedidos)
             {
 
-                
-                Console.WriteLine($" Nome do produto: {pedido.Nome}");
-                Console.WriteLine($" Preço do produto: {pedido.Preco}");
-                
-                
+                Console.WriteLine($"-{pedido.Nome}");
+                Console.WriteLine($"-R${pedido.Preco}");
 
-                Console.WriteLine();
-                Console.WriteLine();
-              
-                //add preço total
             }
-          
+
         }
 
         public double Total()
@@ -44,16 +30,12 @@ namespace Cardápio
             double total = 0;
             foreach (Produto pedido in pedidos)
             {
-            total += pedido.Preco;
-            
+                total += pedido.Preco;
+
             }
             return total;
 
-
         }
-
-
-
 
     }
 }
